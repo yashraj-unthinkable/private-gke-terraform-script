@@ -51,7 +51,7 @@ variable "node-pool-name" {
 
 variable "preemptible-machine-type" {
   type    = string
-  default = "e2-medium"
+  default = "e2-standard-2"
 }
 
 variable "master-ipv4-cidr-block" {
